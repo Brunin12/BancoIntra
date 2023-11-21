@@ -9,6 +9,7 @@ class Home extends BaseController
     public function index(): string
     {
         $this->data['title'] = "Início";
+        $this->data['active_menu'] = "Páginas";
         $this->data['active_page'] = "inicio";
         $this->page['js'] = view('home/js', $this->data);
         $this->page['css'] = view('home/css', $this->data);
@@ -19,6 +20,7 @@ class Home extends BaseController
     public function starter(): string
     {
         $this->data['title'] = "Starter";
+        $this->data['active_menu'] = "Páginas";
         $this->data['active_page'] = "starter";
         $this->page['js'] = view('starter/js', $this->data);
         $this->page['css'] = view('starter/css', $this->data);

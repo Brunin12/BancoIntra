@@ -1,8 +1,8 @@
 <?php
-if (!function_exists('tableCard')) {
-    function tableCard($cardTitle = '', $tableContent = '', $paginationLinks = '')
+if (!function_exists('table')) {
+    function table($cardTitle = '', $tableContent = '', $paginationLinks = '')
     {
-        return view('default/components/cards/table_card', [
+        return view('default/components/widgets/table', [
             'cardTitle' => $cardTitle,
             'tableContent' => $tableContent,
             'paginationLinks' => $paginationLinks

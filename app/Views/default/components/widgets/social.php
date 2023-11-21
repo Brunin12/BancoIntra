@@ -12,7 +12,7 @@
             <div class="col-sm-4 border-right">
                 <div class="description-block">
                     <h5 class="description-header"><?= $info['value']?></h5>
-                    <span class="description-text">"><?= $info['label']?></span>
+                    <span class="description-text"><?= $info['label']?></span>
                 </div>
                 <!-- /.description-block -->
             </div>
@@ -20,7 +20,7 @@
             <div class="col-sm-4 border-right">
                 <div class="description-block">
                     <h5 class="description-header"><?= $info['value2'] ?></h5>
-                    <span class="description-text">"><?= $info['label2'] ?></span>
+                    <span class="description-text"><?= $info['label2'] ?></span>
                 </div>
                 <!-- /.description-block -->
             </div>
@@ -28,7 +28,7 @@
             <div class="col-sm-4">
                 <div class="description-block">
                     <h5 class="description-header"><?= $info['value3'] ?></h5>
-                    <span class="description-text">"><?= $info['label3'] ?></span>
+                    <span class="description-text"><?= $info['label3'] ?></span>
                 </div>
                 <!-- /.description-block -->
             </div>

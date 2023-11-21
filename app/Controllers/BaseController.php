@@ -25,7 +25,7 @@ abstract class BaseController extends Controller
             'card_helper', 
             'box_helper', 
             'social_helper', 
-            'alert_helper', 
+            'carousel_helper', 
             'table_helper', 
             'alert_helper'
         ]);

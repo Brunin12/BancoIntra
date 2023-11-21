@@ -7,4 +7,10 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->get('/starter', 'Home::starter');
-// Adicione mais rotas como desejar :)
+
+$routes->get('/components/card', 'Components::card');
+$routes->get('/components/cardbox', 'Components::cardbox');
+$routes->get('/components/alert', 'Components::alert');
+$routes->get('/components/table', 'Components::table');
+$routes->get('/components/carousel', 'Components::carousel');
+$routes->get('/components/social', 'Components::social');

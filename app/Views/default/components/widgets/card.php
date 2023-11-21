@@ -1,6 +1,6 @@
 <div class="card">
     <div class="card-body">
-        <h3 class="card-title"><?= isset($card_title) ? $card_title : '' ?></h3>
+        <h5 class="title"><?= isset($card_title) ? $card_title : '' ?></h5>
 
         <p class="card-text">
             <?= isset($card_text) ? $card_text : '' ?>
