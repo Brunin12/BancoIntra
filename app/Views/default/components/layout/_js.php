@@ -27,16 +27,31 @@
 
 <script>
     $(() => {
-        $('.navbar').hide().show(1000)
+        $('.navbar').hide().show(750)
+    
+        if (localStorage.getItem('dark-mode') === 'enabled') {
+            $('body').addClass('dark-mode');
+        }
+
+    
+        $('#toogleMode').on('click', function() {
+            if ($('body').hasClass('dark-mode')) {
+                $('body').removeClass('dark-mode');
+                localStorage.setItem('dark-mode', 'disabled');
+            } else {
+                $('body').addClass('dark-mode');
+                localStorage.setItem('dark-mode', 'enabled');
+            }
+        });
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
                 navigator.serviceWorker.register('/sw.js')
-                .then(registration => {
-                    console.log('Service Worker registrado com sucesso:', registration);
-                })
-                .catch(error => {
-                    console.log('Falha ao registrar o Service Worker:', error);
-                });
+                    .then(registration => {
+                        console.log('Service Worker registrado com sucesso:', registration);
+                    })
+                    .catch(error => {
+                        console.log('Falha ao registrar o Service Worker:', error);
+                    });
             });
         }
     })

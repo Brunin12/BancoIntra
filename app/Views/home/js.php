@@ -1,9 +1,36 @@
 <script type="module">
     $(() => {
-        $('.card:eq(0)').hide().fadeIn(1500); // Exibe a primeira carta (índice 0)
-        $('.card:eq(1)').hide().fadeIn(1500); // Exibe a segunda carta (índice 1)
-        $('.card:eq(2)').hide().fadeIn(1500); // Exibe a terceira carta (índice 2)
-        $('.card:eq(3)').hide().fadeIn(1500); // Exibe a quarta carta (índice 3)
+        const sleep = 550;
+        $('.card:eq(0)').hide()
+        $('.card:eq(1)').hide()
+        $('#carousel').hide()
+        $('#hulk').hide()
+        $('.small-box:eq(1)').hide()
+        $('.small-box:eq(2)').hide()
+        $('.small-box:eq(0)').hide().show(sleep);
+
+        setTimeout(() => {
+            $('.small-box:eq(1)').show(sleep - 200);
+            setTimeout(() => {
+                $('.small-box:eq(2)').show(sleep - 300);
+                setTimeout(() => {
+                    $('.card:eq(0)').show(sleep - 100);
+                    setTimeout(() => {
+                        
+                        $('#carousel').show(sleep);
+                        setTimeout(() => {
+                            $('.card:eq(1)').show(sleep);
+                            setTimeout(() => {
+                                $('#hulk').show(sleep);
+                            }, sleep);
+                        }, sleep);
+                    }, sleep);
+                }, sleep - 400);
+            }, sleep - 300);
+        }, sleep - 200);
+
+
+
 
         $('#hulk').click(() => {
             $('.content-wrapper').addClass('animation__shake');

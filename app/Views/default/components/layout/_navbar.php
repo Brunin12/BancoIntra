@@ -9,7 +9,7 @@
             <a href="<?= base_url() ?>" class="nav-link">Início</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-            <a href="https://wa.me/+5575988111744"  target="_blank" class="nav-link">Contato</a>
+            <a href="https://wa.me/+5575988111744" target="_blank" class="nav-link">Contato</a>
         </li>
     </ul>
 
@@ -35,6 +35,11 @@
                     </div>
                 </form>
             </div>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a class="nav-link" id="toogleMode" role="button">
+                <i class="fas fa-moon"></i>
+            </a>
         </li>
     </ul>
 </nav>
