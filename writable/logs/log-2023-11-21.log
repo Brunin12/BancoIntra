@@ -1,0 +1,1322 @@
+CRITICAL - 2023-11-21 11:35:05 --> Invalid file: "home/js.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/js.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/js', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('home/js', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 11:35:06 --> Invalid file: "home/js.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/js.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/js', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('home/js', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 11:47:56 --> Undefined variable: card_text
+in APPPATH\Views\home\components\card.php on line 6.
+ 1 APPPATH\Views\home\components\card.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: card_text', 'C:\\xampp7.4\\htdocs\\framework\\app\\Views\\home\\components\\card.php', 6, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp7.4\\htdocs\\framework\\app\\Views\\home\\components\\card.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/components/card', [], true)
+ 5 APPPATH\Views\home\index.php(4): view('home/components/card', [...])
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp7.4\\htdocs\\framework\\app\\Views\\home\\index.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/index', [], true)
+ 9 APPPATH\Controllers\Home.php(15): view('home/index', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 11:48:06 --> Undefined variable: card_links
+in APPPATH\Views\home\components\card.php on line 9.
+ 1 APPPATH\Views\home\components\card.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: card_links', 'C:\\xampp7.4\\htdocs\\framework\\app\\Views\\home\\components\\card.php', 9, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp7.4\\htdocs\\framework\\app\\Views\\home\\components\\card.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/components/card', [], true)
+ 5 APPPATH\Views\home\index.php(4): view('home/components/card', [...])
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp7.4\\htdocs\\framework\\app\\Views\\home\\index.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/index', [], true)
+ 9 APPPATH\Controllers\Home.php(15): view('home/index', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 11:48:57 --> Call to undefined method CodeIgniter\View\View::view()
+in APPPATH\Views\default\index.php on line 2.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('default/index', [], true)
+ 4 APPPATH\Controllers\Home.php(16): view('default/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 11:53:05 --> file_get_contents(C:\xampp7.4\htdocs\framework\app\Views/default/components/header.php): failed to open stream: No such file or directory
+in APPPATH\Views\default\index.php on line 2.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp7.4\\htdocs\\framework\\app\\Views/default/components/header.php): failed to open stream: No such file or directory', 'C:\\xampp7.4\\htdocs\\framework\\app\\Views\\default\\index.php', 2, [...])
+ 2 APPPATH\Views\default\index.php(2): file_get_contents('C:\\xampp7.4\\htdocs\\framework\\app\\Views/default/components/header.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp7.4\\htdocs\\framework\\app\\Views\\default\\index.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('default/index', [], true)
+ 6 APPPATH\Controllers\Home.php(16): view('default/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 11:53:45 --> file_get_contents(C:\xampp7.4\htdocs\framework\app\Views\default\components\header.php): failed to open stream: No such file or directory
+in APPPATH\Views\default\index.php on line 2.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp7.4\\htdocs\\framework\\app\\Views\\default\\components\\header.php): failed to open stream: No such file or directory', 'C:\\xampp7.4\\htdocs\\framework\\app\\Views\\default\\index.php', 2, [...])
+ 2 APPPATH\Views\default\index.php(2): file_get_contents('C:\\xampp7.4\\htdocs\\framework\\app\\Views\\default\\components\\header.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp7.4\\htdocs\\framework\\app\\Views\\default\\index.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('default/index', [], true)
+ 6 APPPATH\Controllers\Home.php(16): view('default/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 12:51:29 --> Call to undefined function card()
+in APPPATH\Views\home\index.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('home/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 12:52:42 --> Call to undefined function card()
+in APPPATH\Views\home\index.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('home/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 12:53:49 --> Invalid file: "default/components/card.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('default/components/card.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('default/components/card', [], true)
+ 3 APPPATH\Helpers\card_helper.php(7): view('default/components/card', [...])
+ 4 APPPATH\Views\home\index.php(4): card('Renda')
+ 5 SYSTEMPATH\View\View.php(228): include('C:\\xampp7.4\\htdocs\\framework\\app\\Views\\home\\index.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/index', [], true)
+ 8 APPPATH\Controllers\Home.php(15): view('home/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 12:53:50 --> Invalid file: "default/components/card.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('default/components/card.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('default/components/card', [], true)
+ 3 APPPATH\Helpers\card_helper.php(7): view('default/components/card', [...])
+ 4 APPPATH\Views\home\index.php(4): card('Renda')
+ 5 SYSTEMPATH\View\View.php(228): include('C:\\xampp7.4\\htdocs\\framework\\app\\Views\\home\\index.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/index', [], true)
+ 8 APPPATH\Controllers\Home.php(15): view('home/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 12:54:11 --> Invalid file: "default/components/layout/_js.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('default/components/layout/_js.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('default/components/layout/_js', [], true)
+ 3 APPPATH\Views\default\index.php(11): view('default/components/layout/_js')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp7.4\\htdocs\\framework\\app\\Views\\default\\index.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('default/index', [], true)
+ 7 APPPATH\Controllers\Home.php(16): view('default/index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 13:42:12 --> syntax error, unexpected '<', expecting end of file
+in APPPATH\Helpers\card_helper.php on line 12.
+ 1 APPPATH\Controllers\BaseController.php(24): helper([...])
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 13:44:28 --> Call to undefined function card()
+in APPPATH\Views\home\index.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('home/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 13:46:03 --> Call to undefined function card()
+in APPPATH\Views\home\index.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('home/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 13:46:05 --> Call to undefined function card()
+in APPPATH\Views\home\index.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('home/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 13:46:35 --> Call to undefined function card()
+in APPPATH\Views\home\index.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('home/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 13:46:36 --> Call to undefined function card()
+in APPPATH\Views\home\index.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('home/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 13:46:36 --> Call to undefined function card()
+in APPPATH\Views\home\index.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('home/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 13:46:37 --> Call to undefined function card()
+in APPPATH\Views\home\index.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('home/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 13:46:37 --> Call to undefined function card()
+in APPPATH\Views\home\index.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('home/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 13:47:48 --> Call to undefined function card()
+in APPPATH\Views\home\index.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('home/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 13:48:34 --> Call to undefined function card()
+in APPPATH\Views\home\index.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('home/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 13:50:22 --> Call to undefined function card()
+in APPPATH\Views\home\index.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('home/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 13:50:27 --> Call to undefined function card()
+in APPPATH\Views\home\index.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('home/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 13:51:24 --> Call to undefined function card()
+in APPPATH\Views\home\index.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('home/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 13:51:25 --> Call to undefined function card()
+in APPPATH\Views\home\index.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('home/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 13:51:25 --> Call to undefined function card()
+in APPPATH\Views\home\index.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('home/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 13:51:25 --> Call to undefined function card()
+in APPPATH\Views\home\index.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('home/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 13:58:48 --> Call to undefined function card()
+in APPPATH\Views\home\index.php on line 4.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('home/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 13:58:57 --> Call to undefined function card()
+in APPPATH\Views\home\index.php on line 4.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('home/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 14:00:16 --> Call to undefined function card()
+in APPPATH\Views\home\index.php on line 4.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('home/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 14:00:28 --> Call to undefined function card()
+in APPPATH\Views\home\index.php on line 4.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('home/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 14:01:36 --> Call to undefined function card()
+in APPPATH\Views\home\index.php on line 4.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('home/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 14:23:16 --> syntax error, unexpected '') ?>' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+in APPPATH\Views\home\index.php on line 13.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/index', [], true)
+ 3 APPPATH\Controllers\Home.php(15): view('home/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 14:52:35 --> syntax error, unexpected 'mais' (T_STRING)
+in APPPATH\Config\Routes.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 14:55:05 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\default\components\layout\_sidebar.php on line 42.
+ 1 APPPATH\Views\default\components\layout\_sidebar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$request', 'C:\\xampp7.4\\htdocs\\framework\\app\\Views\\default\\components\\layout\\_sidebar.php', 42, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp7.4\\htdocs\\framework\\app\\Views\\default\\components\\layout\\_sidebar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('default/components/layout/_sidebar', [], true)
+ 5 APPPATH\Views\default\index.php(9): view('default/components/layout/_sidebar')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp7.4\\htdocs\\framework\\app\\Views\\default\\index.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('default/index', [], true)
+ 9 APPPATH\Controllers\Home.php(26): view('default/index', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->starter()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 14:55:24 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\default\components\layout\_sidebar.php on line 36.
+ 1 APPPATH\Views\default\components\layout\_sidebar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$request', 'C:\\xampp7.4\\htdocs\\framework\\app\\Views\\default\\components\\layout\\_sidebar.php', 36, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp7.4\\htdocs\\framework\\app\\Views\\default\\components\\layout\\_sidebar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('default/components/layout/_sidebar', [], true)
+ 5 APPPATH\Views\default\index.php(9): view('default/components/layout/_sidebar')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp7.4\\htdocs\\framework\\app\\Views\\default\\index.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('default/index', [], true)
+ 9 APPPATH\Controllers\Home.php(26): view('default/index', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->starter()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 14:55:33 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\default\components\layout\_sidebar.php on line 36.
+ 1 APPPATH\Views\default\components\layout\_sidebar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$request', 'C:\\xampp7.4\\htdocs\\framework\\app\\Views\\default\\components\\layout\\_sidebar.php', 36, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp7.4\\htdocs\\framework\\app\\Views\\default\\components\\layout\\_sidebar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('default/components/layout/_sidebar', [], true)
+ 5 APPPATH\Views\default\index.php(9): view('default/components/layout/_sidebar')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp7.4\\htdocs\\framework\\app\\Views\\default\\index.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('default/index', [], true)
+ 9 APPPATH\Controllers\Home.php(16): view('default/index', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 16:51:34 --> Uncaught ErrorException: Undefined variable: active_page in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:26
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 26, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: componnents/card'.
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 16:51:39 --> Uncaught ErrorException: Undefined variable: active_page in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:26
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 26, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: componnents/cardbox'.
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:05:57 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: componnents/card'.
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:06:16 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: componnents/card'.
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:07:10 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: componnents/card'.
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:08:36 --> Invalid file: "cardbox/js.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cardbox/js.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('cardbox/js', [], true)
+ 3 APPPATH\Controllers\Components.php(25): view('cardbox/js', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\components->cardbox()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\components))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 17:37:21 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: components/cardcarousel'.
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:38:17 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: components/cardalert'.
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:38:38 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: components/table'.
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:38:42 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: components/table'.
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:39:03 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: components/table'.
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:39:08 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: components/table'.
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:39:15 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: components/table'.
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:42:41 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Controller or its method is not found: \App\Controllers\Components::cardbox
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Controller or i...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:42:50 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Controller or its method is not found: \App\Controllers\Components::card
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Controller or i...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:43:01 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Controller or its method is not found: \App\Controllers\Components::card
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Controller or i...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:43:30 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Controller or its method is not found: \App\Controllers\Components::card
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Controller or i...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:43:31 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Controller or its method is not found: \App\Controllers\Components::card
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Controller or i...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:44:07 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Controller or its method is not found: \App\Controllers\Components::card
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Controller or i...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:44:07 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Controller or its method is not found: \App\Controllers\Components::card
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Controller or i...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:44:17 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Controller or its method is not found: \App\Controllers\Components::card
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Controller or i...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:44:18 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Controller or its method is not found: \App\Controllers\Components::card
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Controller or i...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:44:42 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Controller or its method is not found: \App\Controllers\Components::card
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Controller or i...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:44:43 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Controller or its method is not found: \App\Controllers\Components::card
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Controller or i...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:44:50 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Controller or its method is not found: \App\Controllers\Components::carousel
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Controller or i...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:45:35 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Controller or its method is not found: \App\Controllers\Components::card
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Controller or i...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:46:08 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Controller or its method is not found: \App\Controllers\Components::card
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Controller or i...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:47:20 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Controller or its method is not found: \App\Controllers\Components::card
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Controller or i...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:48:57 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Controller or its method is not found: \App\Controllers\Components::cardbox
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Controller or i...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:51:09 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Controller or its method is not found: \App\Controllers\Components::cardbox
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Controller or i...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:51:10 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Controller or its method is not found: \App\Controllers\Components::cardbox
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Controller or i...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:51:13 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Controller or its method is not found: \App\Controllers\Components::card
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Controller or i...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:54:43 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:24
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 24, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Controller or its method is not found: \App\Controllers\Components::card
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Controller or i...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:56:15 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:24
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 24, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: components'.
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:56:36 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:24
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 24, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: componentes'.
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:56:44 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:24
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 24, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: Componentes/card'.
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:56:58 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:24
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 24, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: Componentes/card'.
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 17:56:58 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:24
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 24, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: Componentes/card'.
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 18:11:12 --> Call to undefined function carousel()
+in APPPATH\Views\carousel\index.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('carousel/index', [], true)
+ 4 APPPATH\Controllers\Components.php(48): view('carousel/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Components->carousel()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Components))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 18:13:31 --> Call to undefined function carousel()
+in APPPATH\Views\carousel\index.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('carousel/index', [], true)
+ 4 APPPATH\Controllers\Components.php(48): view('carousel/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Components->carousel()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Components))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 18:14:13 --> Call to undefined function carousel()
+in APPPATH\Views\carousel\index.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('carousel/index', [], true)
+ 4 APPPATH\Controllers\Components.php(48): view('carousel/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Components->carousel()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Components))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 18:16:00 --> Call to undefined function carousel()
+in APPPATH\Views\carousel\index.php on line 20.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('carousel/index', [], true)
+ 4 APPPATH\Controllers\Components.php(48): view('carousel/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Components->carousel()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Components))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 18:17:19 --> Call to undefined function carousel()
+in APPPATH\Views\carousel\index.php on line 19.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('carousel/index', [], true)
+ 4 APPPATH\Controllers\Components.php(48): view('carousel/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Components->carousel()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Components))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 18:17:34 --> Undefined index: alt
+in APPPATH\Views\default\components\widgets\carousel.php on line 11.
+ 1 APPPATH\Views\default\components\widgets\carousel.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: alt', 'C:\\xampp7.4\\htdocs\\codeadmin\\app\\Views\\default\\components\\widgets\\carousel.php', 11, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp7.4\\htdocs\\codeadmin\\app\\Views\\default\\components\\widgets\\carousel.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('default/components/widgets/carousel', [], true)
+ 5 APPPATH\Helpers\Carousel_helper.php(5): view('default/components/widgets/carousel', [...])
+ 6 APPPATH\Views\carousel\index.php(19): carousel([...])
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp7.4\\htdocs\\codeadmin\\app\\Views\\carousel\\index.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('carousel/index', [], true)
+10 APPPATH\Controllers\Components.php(48): view('carousel/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Components->carousel()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Components))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 18:24:24 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: components/table'.
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 18:24:35 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: componentes/table'.
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 18:25:16 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: componentes/table'.
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 18:25:17 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: componentes/table'.
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 18:25:51 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: componentes/table'.
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 18:25:52 --> Uncaught ErrorException: Undefined variable: active_menu in C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php:16
+Stack trace:
+#0 C:\xampp7.4\htdocs\codeadmin\app\Views\default\components\layout\_sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7.4\\htd...', 16, Array)
+#1 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(228): include('C:\\xampp7.4\\htd...')
+#2 C:\xampp7.4\htdocs\codeadmin\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7.4\htdocs\codeadmin\system\Common.php(1190): CodeIgniter\View\View->render('default/compone...', Array, true)
+#4 C:\xampp7.4\htdocs\codeadmin\app\Views\errors\html\error_404.php(4): view('default/compone...')
+#5 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp7.4\\htd...')
+#6 C:\xampp7.4\htdocs\codeadmin\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 C
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: componentes/table'.
+#0 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp7.4\htdocs\codeadmin\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp7.4\htdocs\codeadmin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\default\components\layout\_sidebar.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-21 18:25:55 --> Call to undefined function table()
+in APPPATH\Views\table\index.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('table/index', [], true)
+ 4 APPPATH\Controllers\Components.php(68): view('table/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Components->table()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Components))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
