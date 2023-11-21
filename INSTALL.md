@@ -17,11 +17,9 @@ Exemplo (`httpd-vhosts.conf`):
 
 ```apache
 <VirtualHost *:80>
-    DocumentRoot "Caminho/para/o/projeto"
-    ServerName nomedoDominio.local
-    ErrorLog "logs/nomedoDominio.local-error.log"
-    CustomLog "logs/nomedoDominio.local-access.log" common
-    <Directory "Caminho/para/o/projeto">
+    DocumentRoot "C:/xampp/htdocs/CodeAdmin/public/"
+    ServerName codeadmin.server
+    <Directory "C:/xampp/htdocs/CodeAdmin/public/">
         Options Indexes FollowSymLinks MultiViews
         AllowOverride All
         Require all granted
@@ -59,9 +57,6 @@ obs: o dominio funciona apenas localmente e no ```http://```
 
 Após realizar essas configurações, reinicie o Apache para aplicar as mudanças.
 
-Claro, aqui está um exemplo de como você pode criar um guia em Markdown para executar o projeto no Spark do CodeIgniter 4:
-
-```markdown
 # Rodando o Projeto com o Spark do CodeIgniter 4
 
 Este guia oferece passos para executar o projeto usando o Spark, a CLI do CodeIgniter 4.
@@ -89,5 +84,4 @@ php spark serve
 ```
 
 Isso iniciará um servidor local e mostrará a URL do seu projeto. Acesse essa URL em seu navegador para visualizar o projeto.
-```
 
