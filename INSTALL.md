@@ -32,7 +32,7 @@ Exemplo (`httpd-vhosts.conf`):
 Adicione a entrada correspondente no arquivo de hosts (`C:\Windows\System32\drivers\etc\hosts`):
 
 ``` shell
-127.0.0.1 nomedoDominio.local
+127.0.0.1 codeadmin.server
 ```
 ou
 ``` shell
