@@ -38,5 +38,5 @@ Em caso de dúvidas ou problemas, entre em contato conosco em [brunoparreira@gma
 
 ## Licença
 
-Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para mais detalhes.
+Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
