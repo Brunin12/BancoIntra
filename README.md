@@ -1,59 +1,42 @@
-# CodeIgniter 4 Framework
+# Code Admin - Admin Template Open Source
+[![Contributors](https://img.shields.io/github/contributors/Brunin12/codeadmin)](https://github.com/Brunin12/codeadmin/graphs/contributors)
+[![Forks](https://img.shields.io/github/forks/Brunin12/codeadmin)](https://github.com/Brunin12/codeadmin/network/members)
+[![Estrelas](https://img.shields.io/github/stars/Brunin12/codeadmin)](https://github.com/Brunin12/codeadmin/stargazers)
+[![Perfil](https://img.shields.io/badge/Brunin12-blue?style=flat-square&logo=github)](https://github.com/Brunin12)
 
-## What is CodeIgniter?
+---
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+O Code Admin é uma ferramenta poderosa para criar painéis administrativos robustos e elegantes utilizando <strong>*CodeIgniter 4 e AdminLTE*</strong>. Com uma vasta gama de componentes e um layout responsivo e dinâmico, o Code Admin simplifica o desenvolvimento de sistemas administrativos e painéis de controle.
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+## Principais recursos
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+- **CodeIgniter 4**: Utilize a estrutura moderna e ágil do CodeIgniter 4 para desenvolver aplicações web seguras e eficientes.
+- **AdminLTE**: Aproveite o poder e a elegância do AdminLTE, oferecendo uma interface de usuário limpa, moderna e repleta de recursos.
+- **Layout Responsivo**: Seu painel administrativo será facilmente acessível em dispositivos móveis, tablets e desktops.
+- **Componentes Pré-construídos**: Com uma ampla variedade de componentes prontos para uso, agilize o desenvolvimento de interfaces ricas e funcionais.
+- **Personalizável**: Adapte e personalize o tema facilmente para se adequar à identidade visual da sua aplicação.
 
-The user guide corresponding to the latest version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+## Como começar
 
-## Important Change with index.php
+1. **Instalação**: Clone o repositório e siga as instruções de instalação no arquivo `INSTALL.md`.
+2. **Personalização**: Ajuste o tema e os componentes conforme a necessidade da sua aplicação.
+3. **Desenvolvimento Ágil**: Utilize as funcionalidades poderosas do CodeIgniter 4 para desenvolver rapidamente sua aplicação.
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+## Documentação
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+Acesse a [Documentação Oficial do Codeigniter](https://https://codeigniter.com/) para detalhes sobre a personalização e uso do Code Admin.
 
-**Please** read the user guide for a better explanation of how CI4 works!
+## Contribuição
 
-## Repository Management
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues, enviar pull requests ou colaborar na melhoria deste projeto.
+<br>
+[![Contributors](https://contrib.rocks/image?repo=Brunin12/codeadmin)](https://github.com/Brunin12/codeadmin/graphs/contributors)
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+## Suporte
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+Em caso de dúvidas ou problemas, entre em contato conosco em [brunoparreira@gmail.com](mailto:brunoparreira@gmail.com).
 
-## Contributing
+## Licença
 
-We welcome contributions from the community.
+Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para mais detalhes.
 
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
-
-## Server Requirements
-
-PHP version 7.4 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-> **Warning**
-> The end of life date for PHP 7.4 was November 28, 2022. If you are
-> still using PHP 7.4, you should upgrade immediately. The end of life date
-> for PHP 8.0 will be November 26, 2023.
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
