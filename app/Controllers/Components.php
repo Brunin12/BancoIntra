@@ -11,9 +11,9 @@ class Components extends BaseController
         $this->data['title'] = "Card";
         $this->data['active_menu'] = "Componentes";
         $this->data['active_page'] = "card";
-        $this->page['js'] = view('card/js', $this->data);
-        $this->page['css'] = view('card/css', $this->data);
-        $this->page['content'] = view('card/index', $this->data);
+        $this->page['js'] = view('components/card/js', $this->data);
+        $this->page['css'] = view('components/card/css', $this->data);
+        $this->page['content'] = view('components/card/index', $this->data);
         return view('default/index', $this->page);
     }
 
@@ -22,9 +22,9 @@ class Components extends BaseController
         $this->data['title'] = "Card Box";
         $this->data['active_menu'] = "Componentes";
         $this->data['active_page'] = "cardbox";
-        $this->page['js'] = view('cardbox/js', $this->data);
-        $this->page['css'] = view('cardbox/css', $this->data);
-        $this->page['content'] = view('cardbox/index', $this->data);
+        $this->page['js'] = view('components/cardbox/js', $this->data);
+        $this->page['css'] = view('components/cardbox/css', $this->data);
+        $this->page['content'] = view('components/cardbox/index', $this->data);
         return view('default/index', $this->page);
     }
 
@@ -33,9 +33,9 @@ class Components extends BaseController
         $this->data['title'] = "Alert Box";
         $this->data['active_menu'] = "Componentes";
         $this->data['active_page'] = "alert";
-        $this->page['js'] = view('alert/js', $this->data);
-        $this->page['css'] = view('alert/css', $this->data);
-        $this->page['content'] = view('alert/index', $this->data);
+        $this->page['js'] = view('components/alert/js', $this->data);
+        $this->page['css'] = view('components/alert/css', $this->data);
+        $this->page['content'] = view('components/alert/index', $this->data);
         return view('default/index', $this->page);
     }
     public function carousel(): string
@@ -43,9 +43,9 @@ class Components extends BaseController
         $this->data['title'] = "Carousel";
         $this->data['active_menu'] = "Componentes";
         $this->data['active_page'] = "carousel";
-        $this->page['js'] = view('carousel/js', $this->data);
-        $this->page['css'] = view('carousel/css', $this->data);
-        $this->page['content'] = view('carousel/index', $this->data);
+        $this->page['js'] = view('components/carousel/js', $this->data);
+        $this->page['css'] = view('components/carousel/css', $this->data);
+        $this->page['content'] = view('components/carousel/index', $this->data);
         return view('default/index', $this->page);
     }
     public function social(): string
@@ -53,9 +53,9 @@ class Components extends BaseController
         $this->data['title'] = "Social Card";
         $this->data['active_menu'] = "Componentes";
         $this->data['active_page'] = "social";
-        $this->page['js'] = view('social/js', $this->data);
-        $this->page['css'] = view('social/css', $this->data);
-        $this->page['content'] = view('social/index', $this->data);
+        $this->page['js'] = view('components/social/js', $this->data);
+        $this->page['css'] = view('components/social/css', $this->data);
+        $this->page['content'] = view('components/social/index', $this->data);
         return view('default/index', $this->page);
     }
     public function table(): string
@@ -63,9 +63,9 @@ class Components extends BaseController
         $this->data['title'] = "Table";
         $this->data['active_menu'] = "Componentes";
         $this->data['active_page'] = "table";
-        $this->page['js'] = view('table/js', $this->data);
-        $this->page['css'] = view('table/css', $this->data);
-        $this->page['content'] = view('table/index', $this->data);
+        $this->page['js'] = view('components/table/js', $this->data);
+        $this->page['css'] = view('components/table/css', $this->data);
+        $this->page['content'] = view('components/table/index', $this->data);
         return view('default/index', $this->page);
     }
 }
