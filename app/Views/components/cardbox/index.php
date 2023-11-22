@@ -1,12 +1,12 @@
 <div class="row">
     <div class="col">
-        <?= box('box teste', 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam nobis minima ut harum deleniti voluptas quaerat, exercitationem repudiandae est vero fugit voluptates fuga. Tempore blanditiis ullam velit expedita voluptates distinctio!') ?>
+        <?= box('box teste', 'Lorem ipsum dolor sit amet.', 'bag', 'info', base_url('teste')) ?>
     </div>
     <div class="col">
-        <?= box('box teste', 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam nobis minima ut harum deleniti voluptas quaerat, exercitationem repudiandae est vero fugit voluptates fuga. Tempore blanditiis ullam velit expedita voluptates distinctio!') ?>
+        <?= box('box teste', 'Lorem ipsum dolor sit amet', 'cash', 'success', base_url('teste')) ?>
     </div>
     <div class="col">
-        <?= box('box teste', 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam nobis minima ut harum deleniti voluptas quaerat, exercitationem repudiandae est vero fugit voluptates fuga. Tempore blanditiis ullam velit expedita voluptates distinctio!') ?>
+        <?= box('box teste', 'Lorem ipsum dolor sit amet.' , 'user', 'warning', base_url('teste')) ?>
     </div>
 </div>
 <blockquote class="quote-info">
@@ -18,7 +18,7 @@
                 <div class="col-10">
                     <pre class="highlight">
                         <code id="codeSnippet">
-&lt;?= box('Titulo', 'Texto', 'icone', '&lt;a>Link&lt;/a>'); ?&gt;
+&lt;?= box('Titulo', 'Texto', 'icone', 'cor' 'Link'); ?&gt;
                         </code>
                     </pre>
                 </div>

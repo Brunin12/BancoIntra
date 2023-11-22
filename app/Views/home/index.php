@@ -3,38 +3,38 @@
         <?= box(
             'Lucro',
             'R$ 4.000 P/mês',
-            'bag' // Novo ícone para Renda
+            'bag', 'success' // Novo ícone para Renda
         ) ?>
     </div>
     <div class="col">
         <?= box(
             'Faturamento',
             'R$ 10.000 p/mês',
-            'cash' // Novo ícone para Faturamento
+            'cash', 'info' // Novo ícone para Faturamento
         ) ?>
     </div>
     <div class="col">
         <?= box(
             'Despesas',
             'R$ 6.000 p/mês',
-            'card' // Novo ícone para Despesas
+            'card', 'warning' // Novo ícone para Despesas
         ) ?>
     </div>
 </div>
 <div class="row mb-3">
     <div class="col">
         <?= social(
-            'Bruno Parreira', // Nome
-            'Desenvolvedor Full Stack', // Slogan ou descrição
-            base_url('android-chrome-512x512.png'), // URL da imagem do perfil
-            'info', // Classe para estilização (pode ser 'success', 'warning', etc.)
+            'Bruno Parreira', 
+            'Desenvolvedor Full Stack', 
+            base_url('android-chrome-512x512.png'),
+            'info', 
             [
-                'label' => 'Experiencia', // Rótulo para a primeira informação
-                'value' => '4 Anos', // Valor associado à primeira informação
-                'label2' => 'Projetos', // Rótulo para a segunda informação
-                'value2' => '37', // Valor associado à segunda informação
-                'label3' => 'Renda Passiva', // Rótulo para a terceira informação
-                'value3' => '1.3717 trilhões de Reais', // Valor associado à terceira informação
+                'label' => 'Experiencia', 
+                'value' => '4 Anos', 
+                'label2' => 'Projetos', 
+                'value2' => '37', 
+                'label3' => 'Renda Passiva', 
+                'value3' => '1.3717 trilhões de Reais',
             ]
         ); ?>
 

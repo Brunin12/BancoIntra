@@ -1,89 +1,86 @@
 <div class="row">
     <div class="col">
-        <?= table('
-<table class="table">
-    <thead>
-        <tr>
-            <th scope="col">ID</th>
-            <th scope="col">Nome</th>
-            <th scope="col">Idade</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>1</td>
-            <td>João</td>
-            <td>25</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Maria</td>
-            <td>28</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>pedro</td>
-            <td>8</td>
-        </tr>
-        <!-- Mais linhas da tabela -->
-    </tbody>
-</table>
-'); ?>
-
+        <?= table('Pessoas', '
+        
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Idade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>João</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Maria</td>
+                    <td>28</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Pedro</td>
+                    <td>8</td>
+                </tr>
+                <!-- Mais linhas da tabela -->
+            </tbody>
+        </table>
+        '); ?>
     </div>
     <div class="col">
-        <?= table('
-<table class="table">
-    <thead>
-        <tr>
-            <th scope="col">Dia</th>
-            <th scope="col">Livro</th>
-            <th scope="col">Professor</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>13</td>
-            <td>Matematica</td>
-            <td>Claudiano Arlindo Kubitheck</td>
-        </tr>
-        <tr>
-            <td>15</td>
-            <td>Geografia</td>
-            <td>Algemania Boarosa</td>
-        </tr>
-        <!-- Mais linhas da tabela -->
-    </tbody>
-</table>
-'); ?>
-
+        <?= table('Professores', '
+        
+            <thead>
+                <tr>
+                    <th scope="col">Dia</th>
+                    <th scope="col">Livro</th>
+                    <th scope="col">Professor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>13</td>
+                    <td>Matemática</td>
+                    <td>Claudiano Arlindo Kubitheck</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>Geografia</td>
+                    <td>Algemania Boarosa</td>
+                </tr>
+                <!-- Mais linhas da tabela -->
+            </tbody>
+        
+        '); ?>
     </div>
     <div class="col">
-        <?= table('
-<table class="table">
-    <thead>
-        <tr>
-            <th scope="col">ID</th>
-            <th scope="col">Produto</th>
-            <th scope="col">ID_Dono</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>1</td>
-            <td>Iphone 38 pro max</td>
-            <td>25</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Notebook Caloi</td>
-            <td>28</td>
-        </tr>
-        <!-- Mais linhas da tabela -->
-    </tbody>
-</table>
-'); ?>
-
+        <?= table('Compras', '
+        
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Produto</th>
+                    <th scope="col">ID_Dono</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Iphone 38 pro max</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Notebook Caloi</td>
+                    <td>28</td>
+                </tr>
+                <!-- Mais linhas da tabela -->
+            </tbody>
+        
+        '); ?>
     </div>
 </div>
 <blockquote class="quote-info">
@@ -95,30 +92,27 @@
                 <div class="col-10">
                     <pre class="highlight">
                         <code id="codeSnippet">
-&lt;?= table('
-&lt;table class="table">
+&lt;?= table('Nome da table', ' 
     &lt;thead>
         &lt;tr>
-            &lt;th scope="col">ID</th>
-            &lt;th scope="col">Nome</th>
-            &lt;th scope="col">Idade</th>
+            &lt;th scope="col">ID&lt;/th>
+            &lt;th scope="col">Nome&lt;/th>
+            &lt;th scope="col">Idade&lt;/th>
         &lt;/tr>
     &lt;/thead>
     &lt;tbody>
         &lt;tr>
-            &lt;td>1</td>
-            &lt;td>João</td>
-            &lt;td>25</td>
+            &lt;td>1&lt;/td>
+            &lt;td>João&lt;/td>
+            &lt;td>25&lt;/td>
         &lt;/tr>
         &lt;tr>
-            &lt;td>2</td>
-            &lt;td>Maria</td>
-            &lt;td>28</td>
+            &lt;td>2&lt;/td>
+            &lt;td>Maria&lt;/td>
+            &lt;td>28&lt;/td>
         &lt;/tr>  
     &lt;/tbody>
-&lt;/table>
-'); ?
-&gt;
+'); ?>
                         </code>
                     </pre>
                 </div>
