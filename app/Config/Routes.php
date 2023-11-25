@@ -6,11 +6,12 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 $routes->get('/', 'Home::index');
-$routes->get('/starter', 'Home::starter');
+$routes->get('/profile', 'Home::profile');
+$routes->get('/get/boxes', 'Home::getBoxes/');
 
-$routes->get('/components/card', 'Components::card');
-$routes->get('/components/cardbox', 'Components::cardbox');
-$routes->get('/components/alert', 'Components::alert');
-$routes->get('/components/table', 'Components::table');
-$routes->get('/components/carousel', 'Components::carousel');
-$routes->get('/components/social', 'Components::social');
+$routes->get('/register/movement', 'Movement::register');
+$routes->get('/update/movement/(:num)', 'Movement::edit/$1');
+$routes->get('/delete/movement/(:num)', 'Movement::delete/$1');
+
+$routes->post('/register/store', 'Movement::store');
+$routes->post('/update/store/(:num)', 'Movement::update/$1');

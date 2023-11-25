@@ -1,5 +1,0 @@
-<script type="module">
-    $(() => {
-        
-    });
-</script>

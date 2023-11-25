@@ -1,6 +1,6 @@
 {
-    "name": "Code Admin - Codeigniter 4 Admin Template",
-    "short_name": "Code Admin",
+    "name": "Banco Intra - Confiança ao seu redor",
+    "short_name": "Banco Intra",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -17,7 +17,7 @@
     "background_color": "#ffffff",
     "display": "standalone",
     "start_url": "/?source=pwa", 
-    "description": "Um admin template usando Codeigniter 4", 
+    "description": "Confiança ao seu redor", 
     "orientation": "any",
     "lang": "pt-BR", 
     "scope": "/", 
