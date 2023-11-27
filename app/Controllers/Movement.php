@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\MovementModel;
+use App\Models\ClientModel;
 
 class Movement extends BaseController
 {
@@ -11,15 +12,22 @@ class Movement extends BaseController
     protected $db;
     protected $request;
     protected $movement_m;
+    protected $client_m;
 
     public function __construct()
     {
         $this->db = db_connect();
+        $this->client_m = new ClientModel();
         $this->movement_m = new MovementModel();
+        $this->client_m->checkLoggedIn();
     }
 
-    public function register(): string
+    public function register()
     {
+        if (!$this->client_m->checkLoggedIn()) {
+            session()->setFlashdata('error', 'Você deve fazer login para acessar esta página');
+            return redirect()->to(base_url('account/login'));
+        }
         $this->data['title'] = "Registrar";
         $this->data['active_menu'] = "Movimentação";
         $this->data['active_page'] = "registrar";
@@ -31,15 +39,26 @@ class Movement extends BaseController
 
     public function store()
     {
+        if (!$this->client_m->checkLoggedIn()) {
+            session()->setFlashdata('error', 'Você deve fazer login para acessar esta página');
+            return redirect()->to(base_url('account/login'));
+        }
         $this->movement_m->registerMovement();
-        
+
         return redirect()->to(base_url('register/movement'));
     }
 
     public function edit($id)
     {
+        if (!$this->client_m->checkLoggedIn()) {
+            session()->setFlashdata('error', 'Você deve fazer login para acessar esta página');
+            return redirect()->to(base_url('account/login'));
+        }
         // Recupera os dados do movimento pelo ID para preencher o formulário de edição
-        $movement = $this->db->table('movements')->where('id_movement', $id)->get()->getRow();
+        $movement = $this->db->table('movements')
+            ->where('id_movement', $id)
+            ->where('active', '1')
+            ->get()->getRow();
 
         // Verifica se o movimento existe
         if ($movement) {
@@ -62,17 +81,19 @@ class Movement extends BaseController
 
     public function update($id)
     {
+        if (!$this->client_m->checkLoggedIn()) {
+            session()->setFlashdata('error', 'Você deve fazer login para acessar esta página');
+            return redirect()->to(base_url('account/login'));
+        }
         $this->movement_m->updateMovement($id);
         return redirect()->to(base_url());
     }
 
-    
+
 
     public function delete($id)
     {
         $this->movement_m->deleteMovement($id);
         return redirect()->to(base_url());
     }
-    
-    
 }

@@ -8,42 +8,28 @@ use App\Models\ClientModel;
 class MovementModel extends Model
 {
     protected $table = 'movements';
+    protected $client_m;
     protected $db;
 
     public function __construct()
     {
         $this->db = db_connect();
+        $this->client_m = new ClientModel();
     }
 
-    public function updateProfileData($id)
-    {
-        // Calcular depósitos, saques e saldo
-        $deposits = $this->db->table('movements')->selectSum('value')->where('type', 'deposit')->get()->getRow()->value ?? 0;
-        $exits = $this->db->table('movements')->selectSum('value')->where('type', 'exit')->get()->getRow()->value ?? 0;
-        $balance = $deposits - $exits;
-
-        echo 'deposits: ' . $deposits;
-        echo 'exits: ' . $exits;
-        echo 'balance: ' . $balance;
-
-        // Atualizar os dados na tabela clients
-        $clientModel = new ClientModel();
-        $clientModel->updateClient(1, [
-            'balance' => $balance
-        ]);
-    }
 
     public function registerMovement()
     {
-        $description = $_POST['description'] ?? null;
-        $type = $_POST['type'] ?? null;
-        $value = $_POST['value'] ?? null;
+        $description = $this->getInput('description');
+        $type = $this->getInput('type');
+        $value = $this->getInput('value');
 
         // Dados a serem inseridos
         $data = [
             'description' => $description,
             'type' => $type,
-            'value' => $value
+            'value' => $value,
+            'id_client' => $this->client_m->getID()
         ];
 
         // Inserindo dados na tabela 'movements'
@@ -56,14 +42,15 @@ class MovementModel extends Model
         } else {
             session()->setFlashdata('error', 'Ocorreu um erro durante o processamento da transação.');
         }
-        $this->updateProfileData($this->db->insertID());
+        $this->client_m->updateProfileData($this->db->insertID());
     }
 
     public function updateMovement($id)
     {
-        $description = $_POST['description'] ?? null;
-        $type = $_POST['type'] ?? null;
-        $value = $_POST['value'] ?? null;
+        $this->client_m->verifyAccess($id);
+        $description = $this->getInput('description');
+        $type = $this->getInput('type');
+        $value = $this->getInput('value');
 
         // Dados a serem inseridos
         $data = [
@@ -82,11 +69,12 @@ class MovementModel extends Model
         } else {
             session()->setFlashdata('error', 'Ocorreu um erro durante o processamento da transação.');
         }
-        $this->updateProfileData($id);
+        $this->client_m->updateProfileData($id);
     }
 
     public function deleteMovement($id)
     {
+        $this->client_m->verifyAccess($id);
         $this->db->transStart();
         $insert =  $this->db->table('movements')->delete(['id_movement' => $id]);
         $this->db->transComplete();
@@ -96,6 +84,11 @@ class MovementModel extends Model
         } else {
             session()->setFlashdata('error', 'Ocorreu um erro durante o processamento da transação.');
         }
-        $this->updateProfileData($id);
+        $this->client_m->updateProfileData($id);
+    }
+
+    private static function getInput($fieldName)
+    {
+        return isset($_POST[$fieldName]) ? $_POST[$fieldName] : null;
     }
 }

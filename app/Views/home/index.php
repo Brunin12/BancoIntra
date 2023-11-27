@@ -63,6 +63,7 @@ $balance = $user->balance;
       </div>
 
       <div class="card-body">
+        
         <table class="table">
           <thead>
             <tr>

@@ -15,3 +15,10 @@ $routes->get('/delete/movement/(:num)', 'Movement::delete/$1');
 
 $routes->post('/register/store', 'Movement::store');
 $routes->post('/update/store/(:num)', 'Movement::update/$1');
+
+$routes->get('/account/login', 'Account::index');
+$routes->get('/account/register', 'Account::register');
+$routes->get('/account/exit', 'Account::exit');
+
+$routes->post('/account/login', 'Account::login');
+$routes->post('/account/register', 'Account::storeRegister');
