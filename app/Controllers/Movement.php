@@ -54,6 +54,9 @@ class Movement extends BaseController
             session()->setFlashdata('error', 'Você deve fazer login para acessar esta página');
             return redirect()->to(base_url('account/login'));
         }
+        if ($this->client_m->verifyAccess($id)) {
+            return redirect()->to(base_url());
+        }
         // Recupera os dados do movimento pelo ID para preencher o formulário de edição
         $movement = $this->db->table('movements')
             ->where('id_movement', $id)
@@ -85,6 +88,9 @@ class Movement extends BaseController
             session()->setFlashdata('error', 'Você deve fazer login para acessar esta página');
             return redirect()->to(base_url('account/login'));
         }
+        if ($this->client_m->verifyAccess($id)) {
+            return redirect()->to(base_url());
+        }
         $this->movement_m->updateMovement($id);
         return redirect()->to(base_url());
     }
@@ -93,6 +99,13 @@ class Movement extends BaseController
 
     public function delete($id)
     {
+        if (!$this->client_m->checkLoggedIn()) {
+            session()->setFlashdata('error', 'Você deve fazer login para acessar esta página');
+            return redirect()->to(base_url('account/login'));
+        }
+        if ($this->client_m->verifyAccess($id)) {
+            return redirect()->to(base_url());
+        }
         $this->movement_m->deleteMovement($id);
         return redirect()->to(base_url());
     }

@@ -47,7 +47,6 @@ class MovementModel extends Model
 
     public function updateMovement($id)
     {
-        $this->client_m->verifyAccess($id);
         $description = $this->getInput('description');
         $type = $this->getInput('type');
         $value = $this->getInput('value');
@@ -74,7 +73,6 @@ class MovementModel extends Model
 
     public function deleteMovement($id)
     {
-        $this->client_m->verifyAccess($id);
         $this->db->transStart();
         $insert =  $this->db->table('movements')->delete(['id_movement' => $id]);
         $this->db->transComplete();

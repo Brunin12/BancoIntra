@@ -51,9 +51,9 @@ class ClientModel extends Model
     public function verifyAccess($id) {
         if ($id !== $this->getID()) {
             session()->setFlashdata('error', 'Você não tem permição para acessar este conteúdo.');
-            return redirect()->to(base_url());
+            return true;
         }
-
+        return false;
     }
 
     public function updateClient($id, $data)
